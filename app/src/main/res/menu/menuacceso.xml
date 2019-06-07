@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_logvend"
+        android:title="Vendedores"
+        android:icon="@drawable/vendedor"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        />
+    <item
+        android:id="@+id/menu_logadm"
+        android:icon="@drawable/admin"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:title="Administrador"
+        />
+
+    <item
+        android:id="@+id/menu_salir"
+        android:title="Salir"
+        android:icon="@drawable/salir"
+        app:showAsAction="ifRoom"
+        android:enabled="true"/>
+
+</menu>

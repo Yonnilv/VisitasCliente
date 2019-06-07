@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/vendmenu"
+            android:title="Vendedores" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/clientes"
+            android:title="Clientes" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/visita"
+            android:title="Programar Visitas" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/monitoreo"
+            android:title="Monitoreo" />
+    </group>
+
+    <item android:title="Reportes">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/repvisitas"
+                android:title="Visitas Realizadas" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send"
+                android:visible="false"
+                />
+        </menu>
+    </item>
+
+</menu>
